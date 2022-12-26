@@ -48,11 +48,11 @@ h6 {
 
 :root {
     --primary-magenta: hsl(300, 43%, 22%);
-    --primary-soft_pink: hsl(333, 80%,67%);
+    --primary-soft_pink: hsl(333, 80%, 67%);
 
     --neutral-dark_grayish_magenta: hsl(303, 10%, 53%);
     --neutral-light_grayish-magenta: hsl(300, 24%, 96%);
-    --neutral-white: hsl(0, 0%, 100%); 
+    --neutral-white: hsl(0, 0%, 100%);
 }
 
 body {
@@ -60,13 +60,50 @@ body {
     margin: 0 auto;
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
-
 }
 
 main {
     margin: 1rem auto;
-    max-width: 22rem;
-    }
+    max-width: 19rem;
+    padding: 1rem;
+}
+
+.content_text h1 {
+    color: var(--primary-magenta);
+    text-align: center;
+    font-size: 2rem;
+    line-height: 0.8;
+    margin-block: 1rem;
+    font-weight: 700;
+}
+
+.content_text p {
+    color: var(--neutral-dark_grayish_magenta);
+    text-align: center;
+    font-weight: 400;
+}
+
+.stars {
+    background-color: var(--neutral-light_grayish-magenta);
+    margin-block: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.five_stars {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.content h2 {
+    color: var(--primary-magenta);
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-weight: 700;
+}
 
 
 /*FOOTER*/
