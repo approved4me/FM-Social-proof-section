@@ -1,10 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* RESET END*/
+
+:root {
+    --primary-magenta: hsl(300, 43%, 22%);
+    --primary-soft_pink: hsl(333, 80%,67%);
+
+    --neutral-dark_grayish_magenta: hsl(303, 10%, 53%);
+    --neutral-light_grayish-magenta: hsl(300, 24%, 96%);
+    --neutral-white: hsl(0, 0%, 100%); 
+}
+
+body {
+    max-width: 58rem;
+    margin: 0 auto;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+
+}
+
+main {
+    margin: 1rem auto;
+    max-width: 22rem;
+    }
+
 
 /*FOOTER*/
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
