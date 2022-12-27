@@ -157,14 +157,14 @@ main {
 
 @media only screen and (min-width: 600px)  {
  
-    .main {
+    main {
         max-width: unset;
     }
-
+    
     .content {
         display: flex;
     }
-    
+
     .content > * {
         flex: 1;
     }
