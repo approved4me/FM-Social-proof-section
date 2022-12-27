@@ -157,6 +157,10 @@ main {
 
 @media only screen and (min-width: 60rem)  {
  
+    .main {
+        max-width: unset;
+    }
+
     .content {
         display: flex;
     }
@@ -164,9 +168,19 @@ main {
         flex: 1;
     }
     
-    .main {
-        max-width: unset;
+    .content_text h1 {
+        text-align: left;
     }
+    
+    .content_text p {
+        text-align: left;
+    }
+
+
+
+
+
+
 
     .social_proof {
         flex-direction: row;
