@@ -155,7 +155,7 @@ main {
 
 /* DESKTOP MODE */
 
-@media only screen and (min-width: 60rem)  {
+@media only screen and (min-width: 600px)  {
  
     .main {
         max-width: unset;
@@ -164,6 +164,7 @@ main {
     .content {
         display: flex;
     }
+    
     .content > * {
         flex: 1;
     }
@@ -176,13 +177,8 @@ main {
         text-align: left;
     }
 
-
-
-
-
-
-
     .social_proof {
         flex-direction: row;
     }
+
 }
