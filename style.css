@@ -91,13 +91,10 @@ main {
     border-radius: 0.5rem;
 }
 
-
-
 .five_stars {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-
 }
 
 .content h2 {
@@ -190,6 +187,31 @@ main {
         font-size: 1.3rem;
         text-align: left;
         padding-right: 1rem;
+    }
+    
+    .content_rating {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stars {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .stars:nth-child(1) {
+        margin-left: 0;
+        margin-right: 6rem;
+    }
+
+    .stars:nth-child(2) {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .stars:nth-child(3) {
+        margin-left: 6rem;
     }
 
     .social_proof {
