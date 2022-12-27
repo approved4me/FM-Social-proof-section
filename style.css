@@ -158,7 +158,7 @@ main {
 @media only screen and (min-width: 600px)  {
  
     main {
-        max-width: 50rem;
+        max-width: 60rem;
     }
 
     .content {
