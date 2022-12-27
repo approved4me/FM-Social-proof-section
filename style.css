@@ -158,9 +158,9 @@ main {
 @media only screen and (min-width: 600px)  {
  
     main {
-        max-width: unset;
+        max-width: 50rem;
     }
-    
+
     .content {
         display: flex;
     }
