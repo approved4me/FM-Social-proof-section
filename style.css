@@ -167,7 +167,7 @@ main {
         max-width: unset;
     }
 
-    ..social_proof {
+    .social_proof {
         flex-direction: row;
     }
 }
