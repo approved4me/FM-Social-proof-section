@@ -164,6 +164,10 @@ main {
     }
     
     .main {
-        max-width: 58rem;
+        max-width: unset;
+    }
+
+    ..social_proof {
+        flex-direction: row;
     }
 }
