@@ -10,6 +10,9 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 
+Live: 
+https://approved4me.github.io/FM-Social-proof-section/
+
 ## The challenge
 
 Your challenge is to build out this social proof section and get it looking as close to the design as possible.
